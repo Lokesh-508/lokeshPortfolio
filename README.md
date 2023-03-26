@@ -16,9 +16,6 @@
     <a href="https://github.com/Lokesh-508/Portfolio/issues">Request Feature</a>
 </h3>
 
-## TL;DR
-
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Lokesh-508](https://github.com/Lokesh-508). Thanks!
 
 ## Built With
 
@@ -43,7 +40,7 @@ This project was built using these technologies.
 
 ## Getting Started
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+ You will need `node.js` and `git` installed globally on your machine.
 
 ## 🛠 Installation and Setup Instructions
 
