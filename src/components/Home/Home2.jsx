@@ -84,21 +84,21 @@ function Home2() {
 	<div class="row input-container">
 			<div class="col-xs-12">
 				<div class="styled-input wide">
-					<input type="text" required />
-					<label>Name</label> 
+					 <input type="text" required placeholder="Name" />
+                                         <label for="name"></label>  
 				</div>
 			</div>
 			<div class="col-xs-12">
 				<div class="styled-input wide">
-					<input type="text" required />
-					<label>Email</label> 
+					 <input type="email" required placeholder="Email" />
+                                          <label for="email"></label> 
 				</div>
 			</div>
 			
 			<div class="col-xs-12">
 				<div class="styled-input wide">
-					<textarea required></textarea>
-					<label>Message</label>
+ 					 <textarea required placeholder="Enter your message"></textarea>
+                                              <label for="message"></label>
 				</div>
 			</div>
 			<div class="col-xs-12">
