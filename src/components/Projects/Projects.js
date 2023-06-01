@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 
 import emotion from "../../Assets/Projects/emotion.png";
 import MBA from "../../Assets/Projects/MBA.png";
-
+import port from "../../Assets/Projects/port.png";
 
 function Projects() {
   return (
@@ -18,13 +18,24 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={port}
+              isBlog={false}
+              title="Portfolio Using React Js"
+              description="portfolio website highlights my skills, experience, and accomplishments in the field of web development. From showcasing,my projects and demonstrating technical proficiency to presenting my professional background and skillset, every aspect of the website is designed to captivate and engage the audience."
+              ghLink="https://github.com/Lokesh-508/lokeshPortfolio"
+            />
+          </Col>
+        
+              
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={MBA}
+              imgPath={emotion}
               isBlog={false}
-              title=" Market Basket Analysis"
-              description=" Market Basket analysis is a data mining method focusing on discovering purchase patterns of the customers by extracting association or co-occurrences from a store’s transactional data ."
-              ghLink="https://github.com/Lokesh-508/Market-Basket-Analysis"
+              title="Healthcare-Fraud-Claim-Analysis"
+              description="My project has uncovered numerous doctors and physicians involved in fraudulent activities. Insurance companies bear the brunt of these practices, leading to increased insurance premiums and escalating healthcare costs for everyone involved.This tool aims to empower these stakeholders by providing robust fraud detection capabilities, reducing the costly impact of fraud, and restoring credibility to the industry."
+              ghLink="https://github.com/Lokesh-508/Healthcare-Fraud-Claim-Analysis"
             />
           </Col>
 
@@ -32,13 +43,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={MBA}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/Lokesh-508/Webees"
-              
+              title="Market Basket Analysis"
+              description="Market Basket analysis is a data mining method focusing on discovering purchase patterns of the customers by extracting association or co-occurrences from a store’s transactional data ."
+              ghLink="https://github.com/Lokesh-508/Market-Basket-Analysis"
+                   
             />
           </Col>
         </Row>
